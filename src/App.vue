@@ -1,15 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">
+
+    <!--<PhotosRow/>-->
+    <!--<PostStore/>-->
+    <!--<PostUpdate/>-->
+    <PostDelete/>
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+//import PhotosRow from './components/PhotosRow.vue';
+//import PostStore from './components/PostStore.vue';
+//import PostUpdate from './components/PostUpdate.vue';
+import PostDelete from './components/PostDelete.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   //PhotosRow,
+   //PostStore,
+   //PostUpdate,
+   PostDelete,
+
+    
   }
 }
 </script>
